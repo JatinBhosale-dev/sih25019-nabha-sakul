@@ -1,0 +1,11 @@
+<form action="php/login_handler.php" method="POST">
+  <select name="role" required>
+    <option value="student">Student</option>
+    <option value="teacher">Teacher</option>
+    <option value="parent">Parent</option>
+    <option value="principal">Principal</option>
+  </select>
+  <input type="text" name="username" placeholder="Username" required>
+  <input type="password" name="password" placeholder="Password" required>
+  <button type="submit">Login</button>
+</form>
